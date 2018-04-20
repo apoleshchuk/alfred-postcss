@@ -1,0 +1,39 @@
+{
+  "name": "alfred-postcss",
+  "version": "0.0.0",
+  "description": "PostCSS.parts — a searchable catalog of PostCSS plugins",
+  "license": "MIT",
+  "repository": "apoleshchuk/alfred-postcss",
+  "author": {
+    "name": "Anton Poleshchuk",
+    "email": "anton@poleshchuk.com",
+    "url": "https://github.com/apoleshchuk"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "files": [
+    "index.js",
+    "icon.png",
+    "info.plist"
+  ],
+  "keywords": [
+    "alfred",
+    "workflow",
+    "alfy",
+    "postcss"
+  ],
+  "dependencies": {
+    "alfred-notifier": "^0.2.3",
+    "alfy": "^0.6.0"
+  },
+  "devDependencies": {
+    "alfy-test": "^0.3.0",
+    "ava": "^0.18.0",
+    "xo": "^0.17.0"
+  }
+}
