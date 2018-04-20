@@ -1,6 +1,6 @@
 {
   "name": "alfred-postcss",
-  "version": "0.0.0",
+  "version": "0.0.0-development",
   "description": "PostCSS.parts — a searchable catalog of PostCSS plugins",
   "license": "MIT",
   "repository": "apoleshchuk/alfred-postcss",
@@ -14,7 +14,9 @@
   },
   "scripts": {
     "postinstall": "alfy-init",
-    "preuninstall": "alfy-cleanup"
+    "preuninstall": "alfy-cleanup",
+    "travis-deploy-once": "travis-deploy-once",
+    "semantic-release": "semantic-release"
   },
   "files": [
     "index.js",
@@ -31,5 +33,8 @@
     "alfred-notifier": "^0.2.3",
     "alfy": "^0.6.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "travis-deploy-once": "^4.4.1",
+    "semantic-release": "^15.1.7"
+  }
 }
