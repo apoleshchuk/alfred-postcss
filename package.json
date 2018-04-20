@@ -31,9 +31,5 @@
     "alfred-notifier": "^0.2.3",
     "alfy": "^0.6.0"
   },
-  "devDependencies": {
-    "alfy-test": "^0.3.0",
-    "ava": "^0.18.0",
-    "xo": "^0.17.0"
-  }
+  "devDependencies": {}
 }
